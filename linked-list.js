@@ -135,25 +135,3 @@ class Node {
   }
 }
 
-const linkedList = new LinkedList();
-
-linkedList.append("Petter");
-linkedList.append("Clark");
-linkedList.append("Bruce");
-linkedList.prepend("Diana");
-linkedList.prepend("Barry");
-
-console.log("🚀 ~ list:", linkedList.toString());
-console.log("🚀 ~ list size:", linkedList.size());
-console.log("🚀 ~ list head:", linkedList.head());
-console.log("🚀 ~ list tail:", linkedList.tail());
-console.log("🚀 ~ list at:", linkedList.at(3));
-
-linkedList.pop();
-
-console.log("🚀 ~ after list pop:", linkedList.toString());
-console.log("🚀 ~ size after pop:", linkedList.size());
-console.log("🚀 ~ list contains:", linkedList.contains('Barry'));
-console.log("🚀 ~ list contains:", linkedList.find('Claaudia'));
-console.log("🚀 ~ list insertAt:", linkedList.insertAt('Claaudia', 2));
-console.log("🚀 ~ after insertAt:", linkedList.toString());
