@@ -17,5 +17,3 @@ function merge(left, right) {
     }
     return result.concat(left, right)
 }
-
-console.log(mergeSort([3, 2, 1, 13, 8, 5, 0, 1]))
